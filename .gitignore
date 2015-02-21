@@ -1,0 +1,113 @@
+# .gitignore for Grails 1.2 and 1.3
+
+# web application files
+/web-app/WEB-INF/classes
+
+# default HSQL database files for production mode
+/prodDb.*
+
+# general HSQL database files
+*Db.properties
+*Db.script
+
+# logs
+/stacktrace.log
+/test/reports
+/logs
+
+# project release file
+/*.war
+
+# plugin release files
+/*.zip
+/plugin.xml
+
+# older plugin install locations
+/web-app/plugins
+
+# "temporary" build files
+/target
+
+#Idea files
+/*.iml
+/.idea
+
+/wrapper
+
+/out
+
+fameLive.iml
+
+modules/admin/.classpath
+modules/admin/.project
+modules/admin/test
+modules/admin/target
+modules/admin/admin.iml
+modules/admin/admin-grailsPlugins.iml
+
+modules/api/test
+modules/api/.project
+modules/api/.classpath
+modules/api/target
+modules/api/api.iml
+modules/api/api-grailsPlugins.iml
+
+modules/common/.classpath
+modules/common/test
+modules/common/.project
+modules/common/target
+modules/common/common.iml
+modules/common/common-grailsPlugins.iml
+
+modules/social/test
+modules/social/.project
+modules/social/.classpath
+modules/social/target
+modules/social/social.iml
+modules/social/social-grailsPlugins.iml
+
+modules/chat/test
+modules/chat/.project
+modules/chat/.classpath
+modules/chat/target
+modules/chat/chat.iml
+modules/chat/chat-grailsPlugins.iml
+
+modules/jobs/test
+modules/jobs/.project
+modules/jobs/.classpath
+modules/jobs/target
+modules/jobs/jobs.iml
+modules/jobs/jobs-grailsPlugins.iml
+
+modules/stream/test
+modules/stream/.project
+modules/stream/.classpath
+modules/stream/target
+modules/stream/stream.iml
+modules/stream/stream-grailsPlugins.iml
+
+modules/web/test
+modules/web/.project
+modules/web/.classpath
+modules/web/target
+modules/web/web.iml
+modules/web/web-grailsPlugins.iml
+
+chat-inplacePlugin-grailsPlugins.iml
+cas-inplacePlugin-grailsPlugins.iml
+social-inplacePlugin-grailsPlugins.iml
+api-inplacePlugin-grailsPlugins.iml
+admin-inplacePlugin-grailsPlugins.iml
+stream-inplacePlugin-grailsPlugins.iml
+web-inplacePlugin-grailsPlugins.iml
+common-inplacePlugin-grailsPlugins.iml
+
+chat-inplacePlugin.iml
+cas-inplacePlugin.iml
+social-inplacePlugin.iml
+api-inplacePlugin.iml
+admin-inplacePlugin.iml
+stream-inplacePlugin.iml
+web-inplacePlugin.iml
+common-inplacePlugin.iml
